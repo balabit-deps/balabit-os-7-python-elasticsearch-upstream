@@ -36,5 +36,5 @@ index 4317890..66b3bc3 100755
 -            '--with-xcoverage', '--cover-package=elasticsearch', '--cover-erase',
 +            '--cover-package=elasticsearch', '--cover-erase',
              '--logging-filter=elasticsearch', '--logging-level=DEBUG',
-             '--verbose',
+             '--verbose', '--with-id',
          ]
