@@ -1,3 +1,9 @@
+python-elasticsearch-upstream (6.3.1-bb2) stable; urgency=medium
+
+  * Fix missing files in deb package
+
+ -- Laszlo Andrasi <laszlo.andrasi@balabit.com>  Wed, 14 Nov 2018 16:07:50 +0100
+
 python-elasticsearch-upstream (6.3.1-bb1) stable; urgency=medium
 
   * Uprade to upstream 6.3.1
