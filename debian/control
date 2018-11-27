@@ -25,7 +25,6 @@ Build-Depends-Indep: libjs-jquery,
                      python3-urllib3,
                      python3-sphinx (>= 1.0.7+dfsg-1~),
                      python3-sphinx-rtd-theme
-Conflicts: python-elasticsearch
 Standards-Version: 4.1.0
 Homepage: https://github.com/elasticsearch/elasticsearch-py
 Vcs-Git: https://salsa.debian.org/python-team/modules/python-elasticsearch-upstream.git
@@ -35,6 +34,7 @@ Testsuite: autopkgtest-pkg-python
 Package: python-elasticsearch-upstream
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
+Conflicts: python-elasticsearch
 Suggests: python-elasticsearch-upstream-doc
 Description: Python client for Elasticsearch
  Official low-level client for Elasticsearch. Its goal is to provide common
@@ -56,6 +56,7 @@ Description: Python client for Elasticsearch
 Package: python3-elasticsearch-upstream
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
+Conflicts: python3-elasticsearch
 Suggests: python-elasticsearch-upstream-doc
 Description: Python client for Elasticsearch (Python3 version)
  Official low-level client for Elasticsearch. Its goal is to provide common
@@ -80,6 +81,7 @@ Package: python-elasticsearch-upstream-doc
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}, ${sphinxdoc:Depends}
+Conflicts: python-elasticsearch-doc
 Description: Python client for Elasticsearch (Documentation)
  Official low-level client for Elasticsearch. Its goal is to provide common
  ground for all Elasticsearch-related code in Python; because of this it tries

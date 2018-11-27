@@ -1,3 +1,10 @@
+python-elasticsearch-upstream (6.3.1-bb4) stable; urgency=medium
+
+  * fix conflicts
+
+ -- Laszlo Andrasi <laszlo.andrasi@balabit.com>  Tue, 27 Nov 2018 12:07:50 +0100
+
+
 python-elasticsearch-upstream (6.3.1-bb3) stable; urgency=medium
 
   * Add Conflicts with python-elasticsearch. Only one package can be
