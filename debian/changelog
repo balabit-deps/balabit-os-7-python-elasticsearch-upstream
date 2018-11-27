@@ -1,3 +1,10 @@
+python-elasticsearch-upstream (6.3.1-bb3) stable; urgency=medium
+
+  * Add Conflicts with python-elasticsearch. Only one package can be
+    installed at the same time.
+
+ -- Laszlo Andrasi <laszlo.andrasi@balabit.com>  Tue, 27 Nov 2018 10:07:50 +0100
+
 python-elasticsearch-upstream (6.3.1-bb2) stable; urgency=medium
 
   * Fix missing files in deb package

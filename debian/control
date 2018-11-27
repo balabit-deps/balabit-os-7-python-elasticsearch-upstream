@@ -25,6 +25,7 @@ Build-Depends-Indep: libjs-jquery,
                      python3-urllib3,
                      python3-sphinx (>= 1.0.7+dfsg-1~),
                      python3-sphinx-rtd-theme
+Conflicts: python-elasticsearch
 Standards-Version: 4.1.0
 Homepage: https://github.com/elasticsearch/elasticsearch-py
 Vcs-Git: https://salsa.debian.org/python-team/modules/python-elasticsearch-upstream.git
